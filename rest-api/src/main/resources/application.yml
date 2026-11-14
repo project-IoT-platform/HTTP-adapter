@@ -1,0 +1,8 @@
+server:
+  port: ${PORT:8081}
+
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/iot}
+    username: ${DB_USER:postgres}
+    password: ${DB_PASSWORD:postgres}
